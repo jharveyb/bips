@@ -408,6 +408,8 @@ Input:
 We provide a naive, highly inefficient, and non-constant time [[bip-musig2/reference.py|pure Python 3 reference implementation of the key aggregation, partial signing, and partial signature verification algorithms, together with some test vectors]].
 The reference implementation is for demonstration purposes only and not to be used in production environments.
 
+Standalone JSON [[bip-musig2/key_agg_vectors.json|test] [[bip-musig2/sign_vectors.json|vectors] are also available to facilitate porting the test vectors into other implementations.
+
 == Remarks on Security and Correctness ==
 
 === Tweaking Definition ===

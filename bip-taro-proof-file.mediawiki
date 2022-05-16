@@ -82,7 +82,7 @@ blob with the following format:
 ***** value: [<code>int32</code>:<code>index</code>]
 **** type: 1 (<code>internal_key</code>
 ***** value: [<code>33*byte</code>:<code>y_parity_byte || schnorr_x_only_key</code>]
-**** type: 2 (<code>taproot_asset_proof</code>
+**** type: 2 (<code>taproot_asset_proof</code>)
 ***** value: [<code>...*byte</code>:<code>asset_proof</code>]
 ****** type: 0 (<code>taro_asset_proof<code>)
 ******* value: [<code>...*byte</code>:<code>asset_inclusion_proof</code>]
